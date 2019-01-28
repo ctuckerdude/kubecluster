@@ -52,6 +52,10 @@ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 The scripts are run using admin user (not root):
 bash deploy.sh
 
+Ensure when you have finished to remove the KubeCluster from Amazon EKS using
+terraform destroy and then check the EKS account to ensure all resources have been
+removed to avoid being charged.
+
 **Kubernetes Dashboard UI Console**
 
 On completion of the KubeCluster provisioning, a kubernetes_dashboard_token.dat file
