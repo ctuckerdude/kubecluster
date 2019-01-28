@@ -49,10 +49,12 @@ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 
 **How to Run The Scripts**
 
-The scripts are run using admin user (not root):
+1. Update variables.tf with access key.
+
+2. The scripts are run using admin user (not root):
 bash deploy.sh
 
-Ensure when you have finished to remove the KubeCluster from Amazon EKS using
+3. Ensure when you have finished to remove the KubeCluster from Amazon EKS using
 terraform destroy and then check the EKS account to ensure all resources have been
 removed to avoid being charged.
 
