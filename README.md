@@ -9,7 +9,7 @@ The provisioning includes:
 * Network Configuration
 * Installation of Kubernetes Dashboard UI Console.
 
-The scripts implemented in this project where derived from a number of sources some of which are listed below:
+The scripts implemented in this project were derived from a number of sources, some of which are listed below:
 1. Managing Kubernetes Applications With Hashicorp Terraform 
 https://www.hashicorp.com/blog/managing-kubernetes-applications-with-hashicorp-terraform
 
@@ -19,7 +19,7 @@ https://www.terraform.io/docs/providers/kubernetes/index.html
 3. Kubernetes Dashboard
 https://github.com/kubernetes/dashboard/wiki/Accessing-Dashboard---1.7.X-and-above#kubectl-proxy
 
-** Prerequisites **
+**Prerequisites**
 In order for the scripts to run the host must contain the serveral packages, see below (Centos 7).
 
 1. Terraform Install
